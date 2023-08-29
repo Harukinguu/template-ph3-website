@@ -16,8 +16,19 @@ use Illuminate\Support\Facades\Route;
 
 // ハンズオン用
 Route::get('/about', function () {
-    return '<h1>このブログについてだお</h1>';
+    // return '<h1>このブログについてだお</h1>';
+    return view('about');
 });
+
+Route::get('/post', function () {
+    return '<h1>記事一覧</h1>';
+});
+
+Route::get('/post/{id}', function ($id) {
+    return view('posts.post' , ['id'=>$id]);
+});
+
+
 
 Route::get('/', function () {
     return view('welcome');
