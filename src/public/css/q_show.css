@@ -1,0 +1,25 @@
+.answer-0{
+  cursor: pointer;
+}
+
+.answer-1{
+  cursor: pointer;
+}
+
+.wrong{
+    color: red;
+    /* font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem; */
+}
+
+.correct{
+    color: green;
+    /* font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem; */
+}
